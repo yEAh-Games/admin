@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="icon" href="assets/images/favicon.png" sizes="35x35" type="image/png">
+        <title>NeonDir - Directory Listing HTML5 Template</title>
+
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <!-- Gradient Color Scheme -->
+        <link rel="stylesheet" href="assets/css/colors/color.css" title="color">
+        <link rel="alternate stylesheet" href="assets/css/colors/color2.css" title="color2"> <!-- Color2 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color3.css" title="color3"> <!-- Color3 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color4.css" title="color4"> <!-- Color4 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color5.css" title="color5"> <!-- Color5 -->
+
+        <!-- Solid Color Scheme -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color6.css" title="color6"> <!-- Color6 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color7.css" title="color7"> <!-- Color7 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color8.css" title="color8"> <!-- Color8 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color9.css" title="color9"> <!-- Color9 -->
+        <link rel="alternate stylesheet" href="assets/css/colors/color10.css" title="color10"> <!-- Color10 -->
+    </head>
+    <body>
+        <main>
+            <div class="sidepanel">
+                <span><i class="fas fa-cog fa-spin"></i></span>
+                <div class="color-picker">
+                    <h3>Gradient Colors</h3>
+                    <a class="color applied" onclick="setActiveStyleSheet('color'); return false;"></a>
+                    <a class="color2" onclick="setActiveStyleSheet('color2'); return false;"></a>
+                    <a class="color3" onclick="setActiveStyleSheet('color3'); return false;"></a>
+                    <a class="color4" onclick="setActiveStyleSheet('color4'); return false;"></a>
+                    <a class="color5" onclick="setActiveStyleSheet('color5'); return false;"></a>
+                </div><!-- Color Picker -->
+                <div class="color-picker">
+                    <h3>Solid Colors</h3>
+                    <a class="color6" onclick="setActiveStyleSheet('color6'); return false;"></a>
+                    <a class="color7" onclick="setActiveStyleSheet('color7'); return false;"></a>
+                    <a class="color8" onclick="setActiveStyleSheet('color8'); return false;"></a>
+                    <a class="color9" onclick="setActiveStyleSheet('color9'); return false;"></a>
+                    <a class="color10" onclick="setActiveStyleSheet('color10'); return false;"></a>
+                </div><!-- Color Picker -->
+            </div><!-- Side Panel -->
+            <header class="stick style2 w-100">
+                <div class="topbar w-100">
+                    <div class="container">
+                        <div class="topbar-inner d-flex flex-wrap align-items-center justify-content-between">
+                            <div class="social-links2 d-inline-flex">
+                                <a href="javascript:void(0);" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javascript:void(0);" title="Google Plus" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                                <a href="javascript:void(0);" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="javascript:void(0);" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="top-links d-inline-flex">
+                                <a class="login-btn" href="login.html" title=""><i class="thm-clr fas fa-user"></i>login or Register</a>
+                                <a class="search-btn" href="javascript:void(0);" title=""><i class="thm-clr fas fa-search"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Topbar -->
+                <div class="menu-wrap">
+                    <div class="container">
+                        <div class="menu-inner d-flex flex-wrap align-items-center justify-content-between w-100">
+                            <div class="logo"><h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="assets/images/logo.png" alt="Logo" srcset="assets/images/retina-logo.png"></a></h1></div><!-- Logo -->
+                            <nav class="d-inline-flex align-items-center">
+                                <div>
+                                    <ul class="mb-0 list-unstyled d-inline-flex">
+                                        <li class="menu-item-has-children"><a href="index.html" title="">Home</a>
+                                            <ul class="children mb-0 list-unstyled">
+                                                <li><a href="index.html" title="">Homepage 1</a></li>
+                                                <li><a href="index2.html" title="">Homepage 2</a></li>
+                                                <li><a href="index3.html" title="">Homepage 3</a></li>
+                                                <li><a href="index4.html" title="">Homepage 4</a></li>
+                                                <li><a href="index5.html" title="">Homepage 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Listing</a>
+                                            <ul class="children mb-0 list-unstyled">
+                                                <li><a href="place-listing.html" title="">Place Listing</a></li>
+                                                <li><a href="listing-explore-map-sidebar.html" title="">Listing With Map Style 1</a></li>
+                                                <li><a href="place-layout-detail.html" title="">Listing Detail Style 1</a></li>
+                                                <li><a href="listing-explore-map-sidebar2.html" title="">Listing With Map Style 2</a></li>
+                                                <li><a href="place-layout-detail2.html" title="">Listing Detail Style 2</a></li>
+                                                <li><a href="add-listing.html" title="">Add Listing</a></li>
+                                                <li><a href="listing-review.html" title="">Listing Review</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Pages</a>
+                                            <div class="megamenu center">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-4 col-sm-12 col-sm-4">
+                                                        <div class="megamenu-links w-100">
+                                                            <a href="listing-layout.html" title="">Listing Style 1</a>
+                                                            <a href="listing-layout2.html" title="">Listing Style 2</a>
+                                                            <a href="event-detail.html" title="">Event Detail Style 1</a>
+                                                            <a href="event-detail2.html" title="">Event Detail Style 2</a>
+                                                            <a href="price-table.html" title="">Price Table</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12 col-sm-4">
+                                                        <div class="megamenu-links w-100">
+                                                            <a href="gallery.html" title="">Gallery Style 1</a>
+                                                            <a href="gallery2.html" title="">Gallery Style 2</a>
+                                                            <a href="gallery3.html" title="">Gallery Style 3</a>
+                                                            <a href="gallery-detail.html" title="">Gallery Detail</a>
+                                                            <a href="login.html" title="">Login</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12 col-sm-4">
+                                                        <div class="megamenu-add w-100">
+                                                            <img class="img-fluid" src="assets/images/resources/megamenu-img.jpg" alt="Megamenu Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- Megamenu -->
+                                        </li>
+                                        <li><a href="about.html" title="">About us</a></li>
+                                        <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Contact us</a>
+                                            <ul class="children mb-0 list-unstyled">
+                                                <li><a href="contact.html" title="">Contact us 1</a></li>
+                                                <li><a href="contact2.html" title="">Contact us 2</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <a class="header-btn" href="add-listing.html" title=""><i class="">+</i>Add Listing</a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div><!-- Menu Wrap -->
+            </header><!-- Header -->
+            <div class="search-wrap w-100 d-flex flex-wrap align-items-center justify-content-center">
+                <span class="search-cls-btn rounded-circle"><i class="fas fa-times"></i></span>
+                <form class="w-100">
+                    <input type="text" placeholder="Search here....">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div><!-- Search Wrap -->
+            <div class="rspn-hdr">
+                <div class="rspn-mdbr">
+                    <div class="rspn-scil">
+                        <a href="javascript:void(0);" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="javascript:void(0);" title="Google Plus" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="javascript:void(0);" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="javascript:void(0);" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <form class="rspn-srch">
+                        <input type="text" placeholder="Enter Your Keyword" />
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="lg-mn">
+                    <div class="logo"><a href="index.html" title="Home"><img src="assets/images/logo2.png" alt="Logo" srcset="assets/images/retina-logo2.png"></a></div>
+                    <span class="rspn-mnu-btn"><i class="fa fa-list-ul"></i></span>
+                </div>
+                <div class="rsnp-mnu">
+                    <span class="rspn-mnu-cls"><i class="fa fa-times"></i></span>
+                    <ul class="mb-0 list-unstyled w-100">
+                        <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Home</a>
+                            <ul class="children mb-0 list-unstyled">
+                                <li><a href="index.html" title="">Homepage 1</a></li>
+                                <li><a href="index2.html" title="">Homepage 2</a></li>
+                                <li><a href="index3.html" title="">Homepage 3</a></li>
+                                <li><a href="index4.html" title="">Homepage 4</a></li>
+                                <li><a href="index5.html" title="">Homepage 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Listing</a>
+                            <ul class="children mb-0 list-unstyled">
+                                <li><a href="place-listing.html" title="">Place Listing</a></li>
+                                <li><a href="listing-explore-map-sidebar.html" title="">Listing With Map Style 1</a></li>
+                                <li><a href="place-layout-detail.html" title="">Listing Detail Style 1</a></li>
+                                <li><a href="listing-explore-map-sidebar2.html" title="">Listing With Map Style 2</a></li>
+                                <li><a href="place-layout-detail2.html" title="">Listing Detail Style 2</a></li>
+                                <li><a href="add-listing.html" title="">Add Listing</a></li>
+                                <li><a href="listing-review.html" title="">Listing Review</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Pages</a>
+                            <ul class="children mb-0 list-unstyled">
+                                <li><a href="listing-layout.html" title="">Listing Style 1</a></li>
+                                <li><a href="listing-layout2.html" title="">Listing Style 2</a></li>
+                                <li><a href="event-detail.html" title="">Event Detail Style 1</a></li>
+                                <li><a href="event-detail2.html" title="">Event Detail Style 2</a></li>
+                                <li><a href="price-table.html" title="">Price Table</a></li>
+                                <li><a href="gallery.html" title="">Gallery Style 1</a></li>
+                                <li><a href="gallery2.html" title="">Gallery Style 2</a></li>
+                                <li><a href="gallery3.html" title="">Gallery Style 3</a></li>
+                                <li><a href="gallery-detail.html" title="">Gallery Detail</a></li>
+                                <li><a href="login.html" title="">Login</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html" title="">About us</a></li>
+                        <li class="menu-item-has-children"><a href="javascript:void(0);" title="">Contact us</a>
+                            <ul class="children mb-0 list-unstyled">
+                                <li><a href="contact.html" title="">Contact us 1</a></li>
+                                <li><a href="contact2.html" title="">Contact us 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- Responsive Menu -->
+            </div><!-- Responsive Header -->
+            <section>
+                <div class="w-100 position-relative">
+                    <div class="feat-wrap2 w-100 position-relative">
+                        <div class="feat-caro">
+                            <div class="feat-item"><div class="feat-img" style="background-image: url(assets/images/resources/feat-img2.jpg);"></div></div>
+                            <div class="feat-item"><div class="feat-img" style="background-image: url(assets/images/resources/feat-img1.jpg);"></div></div>
+                        </div>
+                        <div class="reviewer-info-wrap w-100 position-absolute">
+                            <div class="container">
+                                <div class="reviewer-info d-flex flex-wrap align-items-center w-100">
+                                    <div class="reviewer-info-img">
+                                        <img class="img-fluid rounded-circle" src="assets/images/resources/reviewer-img2.jpg" alt="Reviewer Image 2">
+                                        <span class="rounded-pill reviewer-rate text-color2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><span>4.0/5</span></span>
+                                    </div>
+                                    <div class="reviewer-info-inner">
+                                        <h2 class="mb-0">1927 LOUNGE & SPEAKEASY</h2>
+                                        <p class="mb-0">Search St Pancras' adored Champagne bar is famously</p>
+                                        <ul class="reviewer-meta d-inline-flex mb-0 list-unstyled">
+                                            <li><i class="fab fa-skype"></i>@CLUBIDHERE</li>
+                                            <li><i class="fab fa-whatsapp"></i>3569 - 658 - 695</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Featured Wrap 2 -->
+                </div>
+            </section>
+            <section>
+                <div class="w-100 pb-100 gray-bg position-relative">
+                    <div class="reviewer-review-top bg-white w-100">
+                        <div class="container">
+                            <div class="reviewer-review-top-inner d-flex flex-wrap justify-content-between align-items-center">
+                                <ul class="reviewer-review-links mb-0 list-unstyled d-inline-flex">
+                                    <li><a href="#description" title=""><i class="thm-clr fas fa-theater-masks"></i>Description</a></li>
+                                    <li><a href="#night-lights" title=""><i class="thm-clr fas fa-certificate"></i>Night Club Features</a></li>
+                                    <li><a href="#video" title=""><i class="thm-clr fas fa-play"></i>Video</a></li>
+                                    <li><a href="#location" title=""><i class="thm-clr fas fa-address-book"></i>Contact & Location</a></li>
+                                    <li><a href="#review" title=""><i class="thm-clr fas fa-star"></i>People Review</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place-layout-detail-wrap w-100">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-lg-8">
+                                    <div class="place-layout-detail-content2 mt-65 bg-white w-100">
+                                        <div class="place-layout-detail-inner2 w-100" id="description">
+                                            <h3><i class="far fa-file-alt"></i>Description</h3>
+                                            <div class="place-layout-detail-content-inner w-100">
+                                                <p class="mb-0">Searcys St Pancras' adored Champagne bar is famously the longest in Europe. Here, guests can enjoy panoramic views of the magnificent station. For those looking to enjoy a glass of something special, the menu showcases a variety of Champagne and sparkling wines from around the world, including nine options by the glass.</p>
+                                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam sed aliquam. Sed tempor iaculis massa faucibus feugiat. In fermentum facilisis massa, a consequat purus viverra purus viverra</p>
+                                                <a class="thm-btn" href="javascript:void(0);" title="">Visit Website</a>
+                                            </div>
+                                        </div>
+                                        <div class="place-layout-detail-inner2 w-100" id="general">
+                                            <h3><i class="fas fa-concierge-bell"></i>General Amenities</h3>
+                                            <div class="place-layout-detail-content-inner w-100">
+                                                <ul class="aminetis-list d-flex flex-wrap mb-0 list-unstyled">
+                                                    <li><i class="rounded-circle fas fa-wine-bottle"></i>Free Drinks</li>
+                                                    <li><i class="rounded-circle fas fa-wine-bottle"></i>Free Wi Fi</li>
+                                                    <li><i class="rounded-circle fas fa-wine-bottle"></i>Air Conditioned</li>
+                                                    <li><i class="rounded-circle fas fa-wine-bottle"></i>Waitstaff</li>
+                                                    <li><i class="rounded-circle fas fa-wine-bottle"></i>Pet Friendly</li>
+                                                    <li><i class="rounded-circle fas fa-wine-bottle"></i>Free Parking</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="place-layout-detail-inner2 w-100" id="night-lights">
+                                            <h3><i class="far fa-file-image"></i>Club Gallery</h3>
+                                            <div class="place-layout-detail-content-inner w-100">
+                                                <div class="place-layout-detail-gal w-100">
+                                                    <div class="row mrg10">
+                                                        <div class="col-md-4 col-sm-4 col-sm-4">
+                                                            <a href="assets/images/resources/place-layout-detail-gal-img1-1.jpg" data-fancybox="gallery" title=""><img class="img-fluid w-100" src="assets/images/resources/place-layout-detail-gal-img1-1.jpg" alt="Place Layout Detail Gallery Image 1"></a>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-sm-4">
+                                                            <a href="assets/images/resources/place-layout-detail-gal-img1-2.jpg" data-fancybox="gallery" title=""><img class="img-fluid w-100" src="assets/images/resources/place-layout-detail-gal-img1-2.jpg" alt="Place Layout Detail Gallery Image 2"></a>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-sm-4">
+                                                            <a href="assets/images/resources/place-layout-detail-gal-img1-3.jpg" data-fancybox="gallery" title=""><img class="img-fluid w-100" src="assets/images/resources/place-layout-detail-gal-img1-3.jpg" alt="Place Layout Detail Gallery Image 3"></a>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-sm-4">
+                                                            <a href="assets/images/resources/place-layout-detail-gal-img1-4.jpg" data-fancybox="gallery" title=""><img class="img-fluid w-100" src="assets/images/resources/place-layout-detail-gal-img1-4.jpg" alt="Place Layout Detail Gallery Image 4"></a>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-sm-4">
+                                                            <a href="assets/images/resources/place-layout-detail-gal-img1-5.jpg" data-fancybox="gallery" title=""><img class="img-fluid w-100" src="assets/images/resources/place-layout-detail-gal-img1-5.jpg" alt="Place Layout Detail Gallery Image 5"></a>
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-sm-4">
+                                                            <a href="assets/images/resources/place-layout-detail-gal-img1-6.jpg" data-fancybox="gallery" title=""><img class="img-fluid w-100" src="assets/images/resources/place-layout-detail-gal-img1-6.jpg" alt="Place Layout Detail Gallery Image 6"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="place-layout-detail-inner2 w-100" id="location">
+                                            <h3><i class="fas fa-map-marker-alt"></i>Location Event</h3>
+                                            <div class="place-layout-detail-content-inner w-100">
+                                                <div class="listing-loc-map place-map" id="listing-loc-map"></div>
+                                                <ul class="location-add-list mb-0 list-unstyled d-flex flex-wrap">
+                                                    <li><span><i class="rounded-circle fas fa-map-marker-alt"></i>484 Ellis St, San Francisco, CA 94102, United States</span></li>
+                                                    <li><span><i class="rounded-circle fas fa-phone-alt"></i>+61 2 8236 9200</span></li>
+                                                    <li><span><i class="rounded-circle far fa-envelope"></i>youremail@mail.com</span></li>
+                                                    <li><span><i class="rounded-circle fas fa-globe"></i>www.website.com</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="place-layout-detail-inner2 w-100" id="video">
+                                            <h3><i class="far fa-file-video"></i>Place Video</h3>
+                                            <div class="place-layout-detail-content-inner w-100">
+                                                <div class="place-video w-100 position-relative">
+                                                    <a class="d-inline-block" href="https://www.youtube.com/embed/7EdpBH81XIY" data-fancybox title=""><i class="fas fa-play"></i></a>
+                                                    <img class="img-fluid w-100" src="assets/images/resources/place-video-img.jpg" alt="Place Video Image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="place-layout-detail-inner2 w-100" id="public-transport">
+                                            <h3><i class="fas fa-car"></i>Public Transportation</h3>
+                                            <div class="place-layout-detail-content-inner w-100">
+                                                <div class="place-layout-detail-transport w-100">
+                                                    <h4 class="mb-0">Transit / Subway</h4>
+                                                    <ul class="mb-0 list-unstyled w-100">
+                                                        <li>Grand Avenue Station ( Red Line )<span><i class="fas fa-map-marker-alt"></i>600 mt</span></li>
+                                                        <li>Merchandise Mart Station ( Brown, Purples Line )<span><i class="fas fa-map-marker-alt"></i>750 mt</span></li>
+                                                        <li>Clark / Lake Station<span><i class="fas fa-map-marker-alt"></i>760 mt</span></li>
+                                                        <li>State / Lake Station<span><i class="fas fa-map-marker-alt"></i>820 mt</span></li>
+                                                        <li>Lake Station<span><i class="fas fa-map-marker-alt"></i>900 mt</span></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="place-layout-detail-transport w-100">
+                                                    <h4 class="mb-0">Airports</h4>
+                                                    <ul class="mb-0 list-unstyled w-100">
+                                                        <li>New York International Airport<span><i class="fas fa-map-marker-alt"></i>11.6 mi</span></li>
+                                                        <li>New York Domestic Airport<span><i class="fas fa-map-marker-alt"></i>17.5 mi</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="place-layout-detail-inner2 w-100" id="review">
+                                            <h3><i class="fas fa-sort-amount-down"></i>Leave a Review</h3>
+                                            <div class="place-layout-detail-content-inner w-100">
+                                                <form class="review-form w-100">
+                                                    <div class="row">
+                                                        <div class="col-md-4 col-sm-4 col-lg-4">
+                                                            <input type="text" placeholder="Frank Willoy">
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-lg-4">
+                                                            <input type="email" placeholder="Email Address *">
+                                                        </div>
+                                                        <div class="col-md-4 col-sm-4 col-lg-4">
+                                                            <div class="our-review text-right">
+                                                                <label>Your Review:</label>
+                                                                <span class="rate text-color2"><a href="javascript:void(0);" title=""><i class="far fa-star"></i></a><a href="javascript:void(0);" title=""><i class="far fa-star"></i></a><a href="javascript:void(0);" title=""><i class="far fa-star"></i></a><a href="javascript:void(0);" title=""><i class="far fa-star"></i></a><a href="javascript:void(0);" title=""><i class="far fa-star"></i></a></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 col-sm-12 col-lg-12">
+                                                            <textarea placeholder="Your Comment *"></textarea>
+                                                            <button class="thm-btn" type="submit">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="sidebar-wrap mt-20 d-inline-block w-100">
+                                        <div class="wdgt2 style2 w-100">
+                                            <h4>Club Hours</h4>
+                                            <ul class="hours-list mb-0 list-unstyled w-100">
+                                                <li><span>Monday</span><span>9 am - 5 pm</span></li>
+                                                <li><span>Tuesday</span><span>9 am - 5 pm</span></li>
+                                                <li><span>Wednesday</span><span>9 am - 5 pm</span></li>
+                                                <li><span>Thursday</span><span>9 am - 5 pm</span></li>
+                                                <li><span>Friday</span><span>9 am - 5 pm</span></li>
+                                                <li><span>Saturday</span><span>9 am - 5 pm</span></li>
+                                                <li class="sunday-hours"><span>Sunday</span><span>close - close</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="wdgt2 style2 w-100">
+                                            <h4>Book Your Place</h4>
+                                            <form class="book-place-form w-100">
+                                                <div class="row mrg15">
+                                                    <div class="col-md-12 col-sm-12 col-lg-12">
+                                                        <div class="field w-100 position-relative">
+                                                            <i class="far fa-user"></i>
+                                                            <input type="text" placeholder="Your name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 col-sm-12 col-lg-12">
+                                                        <div class="field w-100 position-relative">
+                                                            <i class="far fa-envelope"></i>
+                                                            <input type="email" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-7 col-lg-7">
+                                                        <label class="mb-0">How Many Days</label>
+                                                    </div>
+                                                    <div class="col-md-5 col-sm-5 col-lg-5">
+                                                        <div class="field w-100 position-relative">
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 col-sm-12 col-lg-12">
+                                                        <div class="field w-100 position-relative">
+                                                            <div class="area-slider w-100" id="area-slider"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 col-sm-12 col-lg-12">
+                                                        <div class="field w-100 position-relative">
+                                                            <i class="far fa-clock"></i>
+                                                            <input type="date" placeholder="Date/Time">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 col-sm-12 col-lg-12">
+                                                        <div class="field w-100 position-relative">
+                                                            <textarea placeholder="Additional Information"></textarea>
+                                                            <button class="thm-btn" type="submit">Book Place</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div><!-- Sidebar Wrap -->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Place Layout Detail Wrap -->
+                </div>
+            </section>
+            <footer>
+                <div class="w-100 dark-bg2 position-relative">
+                    <div class="footer-cont-wrap w-100">
+                        <div class="container">
+                            <div class="footer-cont-inner d-flex flex-wrap align-items-center justify-content-between">
+                                <div class="footer-cont-info">
+                                    <ul class="mb-0 list-unstyled d-inline-flex">
+                                        <li><i class="rounded thm-bg fas fa-phone"></i>Free support: +01 5426 24400</li>
+                                        <li><i class="rounded thm-bg fas fa-envelope"></i>Email: <a href="javascript:void(0);" title="">Example@example.com</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-cont-btn">
+                                    <a class="thm-btn rounded" href="about.html" title="">About Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Footer Contact Wrap -->
+                    <div class="footer-data w-100">
+                        <div class="container res-row">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-lg-3">
+                                    <div class="widget w-100">
+                                        <div class="logo"><h1 class="mb-0"><a href="index.html" title="Home"><img class="img-fluid" src="assets/images/logo.png" alt="Logo" srcset="assets/images/retina-logo.png"></a></h1></div>
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, conse ctetuers adipiscing eli sed diam nonum nibhieLorem ipsum dolor sit amet, conse ctetuers adipiscing eli sed diam nonum nibhie……</p>
+                                        <div class="social-links d-inline-block">
+                                            <a href="javascript:void(0);" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="javascript:void(0);" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            <a href="javascript:void(0);" title="Google Plus" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                                            <a href="javascript:void(0);" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-5">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-lg-6">
+                                            <div class="widget w-100">
+                                                <h3>Userful Links</h3>
+                                                <ul class="mb-0 list-unstyled w-100">
+                                                    <li><a href="javascript:void(0);" title="">About</a></li>
+                                                    <li><a href="javascript:void(0);" title="">Our Story</a></li>
+                                                    <li><a href="javascript:void(0);" title="">Professional Team</a></li>
+                                                    <li><a href="javascript:void(0);" title="">Services</a></li>
+                                                    <li><a href="javascript:void(0);" title="">Testimonials</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 col-lg-6">
+                                            <div class="widget w-100">
+                                                <h3>Trending Category</h3>
+                                                <ul class="mb-0 list-unstyled w-100">
+                                                    <li><a href="javascript:void(0);" title="">Automobiles</a></li>
+                                                    <li><a href="javascript:void(0);" title="">Club party Night</a></li>
+                                                    <li><a href="javascript:void(0);" title="">Car showroom</a></li>
+                                                    <li><a href="javascript:void(0);" title="">School Event</a></li>
+                                                    <li><a href="javascript:void(0);" title="">Gym event</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-lg-4">
+                                    <div class="widget w-100">
+                                        <h3>Gallery</h3>
+                                        <ul class="gallery-list mb-0 list-unstyled d-flex flex-wrap">
+                                            <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="assets/images/resources/gal-img1-1.jpg" alt="Gallery Image 1"></a></li>
+                                            <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="assets/images/resources/gal-img1-2.jpg" alt="Gallery Image 2"></a></li>
+                                            <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="assets/images/resources/gal-img1-3.jpg" alt="Gallery Image 3"></a></li>
+                                            <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="assets/images/resources/gal-img1-4.jpg" alt="Gallery Image 4"></a></li>
+                                            <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="assets/images/resources/gal-img1-5.jpg" alt="Gallery Image 5"></a></li>
+                                            <li><a href="javascript:void(0);" title=""><img class="img-fluid w-100" src="assets/images/resources/gal-img1-6.jpg" alt="Gallery Image 6"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- Footer Data -->
+                </div>
+            </footer><!-- Footer -->
+            <div class="copyright text-center w-100">
+                <div class="container">
+                    <p class="mb-0">&copy; 2020 <a href="index.html" title="">NeonDir</a> — Directory & Listings WordPress Theme. Developed by <a href="https://themeforest.net/user/jthemes/portfolio" title="Jthemes" target="_blank">Jthemes</a></p>
+                </div>
+            </div><!-- Copyright -->
+        </main><!-- Main Wrapper -->
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-select.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/counterup.min.js"></script>
+        <script src="assets/js/scroll-up-bar.min.js"></script>
+        <script src="assets/js/jquery.fancybox.min.js"></script>
+        <script src="assets/js/perfect-scrollbar.min.js"></script>
+        <script src="assets/js/styleswitcher.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/ion.rangeSlider.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYc537bQom7ajFpWE5sQaVyz1SQa9_tuY&callback=initMap"></script>
+        <script src="assets/js/google-map-int.js"></script>
+        <script src="assets/js/custom-scripts.js"></script>
+    </body>	
+</html>

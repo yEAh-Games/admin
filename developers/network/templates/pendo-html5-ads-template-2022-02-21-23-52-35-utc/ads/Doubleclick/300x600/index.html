@@ -1,0 +1,190 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>300x600</title>
+<meta name="ad.size" content="width=300,height=600">
+<link href="animated.css" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+<!-- doubleclick JS -->
+<script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script><link href="animated.css" type="text/css" rel="stylesheet">
+
+<style>
+body {
+	margin: 0;
+    padding: 0;
+	background:#e3e3e3;
+}
+#mainbanner{
+	width: 298px;
+	height: 598px;
+	background-color:#fff;
+	margin: 0 auto;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	border: 1px solid #3c3c3c;
+}
+#wraper{
+	width: 298px;
+	height: 598px;
+}
+/* button clickTag*/
+#clickbanner{
+	width: 298px;
+	height: 598px;
+	position:absolute;
+	z-index:1;
+	cursor:pointer;
+}
+#bg{
+	width: 300px;
+	height: 600px;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	opacity:0;
+}
+#logo{
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 29px;
+	left: 64px;
+	opacity: 0;
+}
+#wave{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 0px;
+	top: 371px;
+	opacity: 0;
+}
+#text1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 28pt;
+	color: #FFF;
+	text-align: center;
+	width: 275px;
+	height: auto;
+	position: absolute;
+	top: 100px;
+	left: 11px;
+	line-height: 33pt;
+	text-transform: uppercase;
+	opacity: 0;
+}
+#text2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 19pt;
+	color: #FFF;
+	text-align: center;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 194px;
+	left: 28px;
+	line-height: 18pt;
+	opacity: 0;
+}
+
+#icon{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 25px;
+	top: 267px;
+	opacity: 0;
+}
+#cta{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 61px;
+	top: 515px;
+	opacity: 0;
+}
+#domain {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 9pt;
+	color: #5b5b5b;
+	text-align: center;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 574px;
+	left: 84px;
+	line-height: normal;
+	text-transform: none;
+}
+
+/* overlay */
+#text-over{
+	width: auto;
+	height: auto;
+	margin-top:70%;
+	display:none;
+}
+#expand {
+  height: 1%;
+  margin-left:20.5%;
+  margin-right:20%;
+  margin-top:120%;
+  background: #e34f26;
+  position:inherit;
+}
+#expandbg {
+  width: 59%;
+  height: 1%;
+  margin-left:20.5%;
+  margin-right:20%;
+  margin-top:120%;
+  background: #fff;
+  position:inherit;
+}
+/* overlay */
+</style>
+</head>
+
+<body>
+<div id="mainbanner" ><!--wraper-->
+<div id="clickbanner" ><!--clickTag-->
+
+<div id="wraper">
+<div id="bg" class="bounceInbg"><img src="bg.png" /></div>
+<div id="logo" class="bounceInbg"><img src="logo.png" /></div>
+<div id="wave" class="fadeInUp"><img src="wave.png" /></div>
+<div id="text1" class="fadeInUp">FOR THE<br>
+  AMAZING HOLIDAY</div>
+<div id="text2" class="fadeInUp">Surfing information for<br>
+  surfing lifestyle</div>
+<div id="icon" class="bounceInbg"><img src="icon.png" /></div>
+<div id="cta" class="bounceInbg"><img src="button.png" /></div>
+<div id="domain" class="fadeInUp">www.yourbussiness.com</div>
+
+		<div id="overlay" class="fadeOutover">
+        <span id="expandbg"></span>
+        <span id="expand"></span>
+        <div id="text-over"><img src="text-over.png" /></div>
+        </div>
+        
+</div>
+
+</div>
+</div>
+
+<!-- animated JS -->
+<script src="app.js"></script>
+<script>
+function bgExitHandler(e) {
+  Enabler.exit('Background Exit');
+}
+document.getElementById('clickbanner').addEventListener('click', bgExitHandler, false);
+</script>
+</body>
+</html>

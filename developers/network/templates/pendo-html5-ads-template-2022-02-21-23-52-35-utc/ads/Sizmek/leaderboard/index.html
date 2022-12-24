@@ -1,0 +1,200 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>728x90</title>
+<meta name="ad.size" content="width=728,height=90">
+<link href="animated.css" type="text/css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+<!-- sizmek JS -->
+<script type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingScript/EBLoader.js"></script>
+<script>
+        function initEB() {
+   		 if (!EB.isInitialized()) {
+         EB.addEventListener(EBG.EventName.EB_INITIALIZED, startAd);
+   		 } else {
+         startAd();
+    	 }
+		 }
+
+		function startAd() {
+   		 document.getElementById("mainbanner").style.visibility = "visible";
+		}
+		
+		function handleBannerClick() {
+    	EB.clickthrough();
+		}
+        </script>
+
+<style>
+body {
+	margin: 0;
+    padding: 0;
+	background:#e3e3e3;
+}
+#mainbanner{
+	width: 726px;
+	height: 88px;
+	background-color:#fff;
+	margin: 0 auto;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	border: 1px solid #3c3c3c;
+}
+#wraper{
+	width: 726px;
+	height: 88px;
+}
+/* button clickTag*/
+#clickbanner{
+	width: 726px;
+	height: 88px;
+	position:absolute;
+	z-index:1;
+	cursor:pointer;
+}
+#bg{
+	width: 728px;
+	height: 90px;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	opacity:0;
+}
+#logo{
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 28px;
+	left: 16px;
+	opacity: 0;
+}
+#wave{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 434px;
+	top: 0px;
+	opacity: 0;
+}
+#text1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 20pt;
+	color: #FFF;
+	text-align: center;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 3px;
+	left: 163px;
+	line-height: 33pt;
+	text-transform: uppercase;
+	opacity: 0;
+}
+#text2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15pt;
+	color: #FFF;
+	text-align: center;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 41px;
+	left: 209px;
+	line-height: 16pt;
+	opacity: 0;
+}
+
+#icon{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 494px;
+	top: 2px;
+	opacity: 0;
+}
+#cta{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 599px;
+	top: 24px;
+	opacity: 0;
+}
+#domain {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 9pt;
+	color: #5b5b5b;
+	text-align: center;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 68px;
+	left: 596px;
+	line-height: normal;
+	text-transform: none;
+}
+
+/* overlay */
+#text-over{
+	width: auto;
+	height: auto;
+	margin-top:1.5%;
+	margin-left:38%;
+	margin-right:40%;
+	display:none;
+}
+#expand {
+  height: 4%;
+  margin-left:39.5%;
+  margin-right:20%;
+  margin-top:11%;
+  background: #e34f26;
+  position:inherit;
+}
+#expandbg {
+  width: 20%;
+  height: 4%;
+  margin-left:39.5%;
+  margin-right:20%;
+  margin-top:11%;
+  background: #fff;
+  position:inherit;
+}
+/* overlay */
+</style>
+</head>
+
+<body>
+<div id="mainbanner" ><!--wraper-->
+<div id="clickbanner" onClick="javascript:handleBannerClick();"><!--clickTag-->
+<div id="wraper">
+<div id="bg" class="bounceInbg"><img src="bg.png" /></div>
+<div id="logo" class="bounceInbg"><img src="logo.png" /></div>
+<div id="wave" class="fadeInRight"><img src="wave.png" /></div>
+<div id="text1" class="fadeInUp">FOR THE AMAZING HOLIDAY</div>
+<div id="text2" class="fadeInUp">Surfing information for<br>
+surfing lifestyle</div>
+<div id="icon" class="bounceInbg"><img src="icon.png" /></div>
+<div id="cta" class="bounceInbg"><img src="button.png" /></div>
+<div id="domain" class="fadeInUp">www.yourbussiness.com</div>
+
+		<div id="overlay" class="fadeOutover">
+        <span id="expandbg"></span>
+        <span id="expand"></span>
+        <div id="text-over"><img src="text-over.png" /></div>
+        </div>
+        
+</div>
+</div>
+</div>
+
+<!-- animated JS -->
+<script src="app.js"></script>
+</body>
+</html>
