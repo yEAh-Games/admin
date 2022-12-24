@@ -365,41 +365,33 @@ custom_css:
                         </ul>
                         <div class="border_bottom"></div>
                         <div class="shortcode_info" id="tabs-doc">
-                            {% include doc_tab.html %}
                         </div>
                         <!--accordian-->
                         <div class="shortcode_info" id="accordian-doc">
-                            {% include doc_accordion.html %}
                         </div>
                         <!--accordian-->
                                                                                                                                                                                                                                                                                                                                                                                                         <!--notice-->
                         <div class="shortcode_info" id="notices-doc">
-                            {% include doc_notice.html %}
                         </div>
                         <!--notice-->
                                                                                                                                                                                                                                                                                                                                                                                                         <!--tooltip-->
                         <div class="shortcode_info" id="tooltip-doc">
-                            {% include doc_tooltip.html %}
                         </div>
                         <!--tooltip-->
                                                                                                                                                                                                                                                                                                                                                                                                         <!--table-->
                         <div class="shortcode_info" id="table-doc">
-                            {% include doc_table.html %}
                         </div>
                         <!--table-->
                                                                                                                                                                                                                                                                                                                                                                                                         <!--lightbox-->
                         <div class="shortcode_info" id="lightbox-doc">
-                            {% include doc_lightbox.html %}
                         </div>
                         <!--lightbox-->
                                                                                                                                                                                                                                                                                                                                                                                                         <!--footnote-->
                         <div class="shortcode_info" id="footnote-doc">
-                            {% include doc_footnote.html %}
                         </div>
                         <!--footnote-->
                                                                                                                                                                                                                                                                                                                                                                                                         <!--can I use-->
                         <div class="shortcode_info" id="can-use-doc">
-                            {% include doc_can_use.html %}
                         </div>
                         <!--can I use-->
                     </article>
@@ -486,7 +478,6 @@ custom_css:
                             </div>
                         </div>
                         <div class="border_bottom"></div>
-                        {% include doc_hotspots.html %}
                     </article>
                     <!--typography-->
                     <article class="shortcode_info documentation_body typography_content doc-section" id="typography-doc">
@@ -615,7 +606,6 @@ custom_css:
                             </div>
                         </div>
                         <div class="documentation_body typography_content" id="img-doc">
-                            {% include doc_image.html %}
                         </div>
                         <div class="documentation_body typography_content" id="video-doc">
                             <div class="shortcode_title">
@@ -694,10 +684,9 @@ custom_css:
                         </div>
                     </article>
                     <div class="shortcode_info doc-section" id="changelog-doc">
-                        {% include doc_changelog.html %}
+                        
                     </div>
                     <div class="shortcode_info doc-section" id="cheatsheet-doc">
-                        {% include doc_cheatsheet.html %}
                     </div>
                 </div>
             </div>
