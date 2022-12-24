@@ -19,10 +19,3 @@ custom_css:
 - assets/slick/slick-theme.css
 ---
 
-{% include banner_one.html title="How can we help you?" subtitle="Search here to get answers to your questions" %}
-
-{% include recommended_topic.html title="Recommended Topics" subtitle="Loaded with awesome features like Documentation,Knowledgebase,<br> Forum & more!" %}
-
-{% include doc_testimonial.html %}
-{% include doc_subscribe.html title="Great Customer <br>Relationships start here" %}
-
