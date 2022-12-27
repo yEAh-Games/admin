@@ -108,3 +108,7 @@ docs will still have a post image but will display the iframe embed there and on
 notes hosted at admin will be iframe embedded into the dashboard, maybe an editing fucntion (no
 
 add chat to all new pages + navbar
+
+maybe unigon.net homepage dashboard template for yeahgames.net, each sidebar link could be subdomains and dashboard, etc.
+
+docs are a collection by the archives (add in library menu: collections > docs) where some archive files are aggregated in a different format for diff  use, just embedded onto there.
