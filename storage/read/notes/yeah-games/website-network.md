@@ -112,3 +112,5 @@ add chat to all new pages + navbar
 maybe unigon.net homepage dashboard template for yeahgames.net, each sidebar link could be subdomains and dashboard, etc.
 
 docs are a collection by the archives (add in library menu: collections > docs) where some archive files are aggregated in a different format for diff  use, just embedded onto there.
+
+library website change domains so archives.yg becomes library.yg and the chirpy theme is the library for browsing the archives, while library/collections hosts different aggregators of archives content via embedding the chirpy posts. library using chirpy as it is will run all posts and act as the main aggregator of yg library content, entrance into the archives by displaying everything
