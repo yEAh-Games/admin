@@ -114,3 +114,7 @@ maybe unigon.net homepage dashboard template for yeahgames.net, each sidebar lin
 docs are a collection by the archives (add in library menu: collections > docs) where some archive files are aggregated in a different format for diff  use, just embedded onto there.
 
 library website change domains so archives.yg becomes library.yg and the chirpy theme is the library for browsing the archives, while library/collections hosts different aggregators of archives content via embedding the chirpy posts. library using chirpy as it is will run all posts and act as the main aggregator of yg library content, entrance into the archives by displaying everything
+
+collections.yeahgames.net/library or something to host collection pages like docs
+
+we will still have archives.yeahgames.net, but it hosts static files that aren't displayed in the library archives but are still either linked or embedded, like the discord exports
