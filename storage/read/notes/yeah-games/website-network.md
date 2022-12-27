@@ -118,3 +118,7 @@ library website change domains so archives.yg becomes library.yg and the chirpy 
 collections.yeahgames.net/library or something to host collection pages like docs
 
 we will still have archives.yeahgames.net, but it hosts static files that aren't displayed in the library archives but are still either linked or embedded, like the discord exports
+
+library-collections.yg.net but collections.yg just redirects for easier use
+
+INSTEAD OF HTML DOCS TEMPLATE FOR DOCS COLLECTION, GET A jekyll site (maybe a whole new subdomain, e.g. docs-library-collections.yg.net) or something
