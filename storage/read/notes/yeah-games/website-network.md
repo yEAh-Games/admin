@@ -124,3 +124,5 @@ library-collections.yg.net but collections.yg just redirects for easier use
 INSTEAD OF HTML DOCS TEMPLATE FOR DOCS COLLECTION, GET A jekyll site (maybe a whole new subdomain, e.g. docs-library-collections.yg.net) or something
 
 always add a copy of new markdown posts to the library to the archives-cdn as well, just so they can continue to be accessed; but library takes update priority, just copy and paste a copy of the markdown file and post it quickly when done
+
+on library-collections, index will be a template directory linking to all public collections
