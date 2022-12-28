@@ -132,3 +132,7 @@ find a jekyll directory template for the yeahgames.net homepage to direct to all
 create readme.md on yeahgames profile with directory and yg image banner with directory to all subdomains and short descriptions, along with archives team goal and current projects, code links, etc.
 
 add discord post on library with embed **and** links
+
+add the yeah games github readme as more docs to the docs file
+
+how-to guide to beomoming archivist, moderator, github proejct contributor on docs
