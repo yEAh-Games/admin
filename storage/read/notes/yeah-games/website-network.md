@@ -140,3 +140,5 @@ how-to guide to beomoming archivist, moderator, github proejct contributor on do
 docs will gave guides about how to edit certain things, like markdown syntax and mardown syntax for varoius templates, like the chirpy and docs, instructions for w3css and how to edit the standard navbar and yible (always file navbar changes on yeahgames.net and write it down somewhere; notes, issues, etc.)
 
 docs: how to submit quotes, file a yourt case, etc. from around the server
+
+add notice on docs posts on main library collection that they are being hosted and embedded/displayed from the "Docs" library collection and you are viewing an embedded version, we recommend visiting the docs page in order to view them properly and to learn more, etc.
