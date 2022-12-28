@@ -136,3 +136,7 @@ add discord post on library with embed **and** links
 add the yeah games github readme as more docs to the docs file
 
 how-to guide to beomoming archivist, moderator, github proejct contributor on docs
+
+docs will gave guides about how to edit certain things, like markdown syntax and mardown syntax for varoius templates, like the chirpy and docs, instructions for w3css and how to edit the standard navbar and yible (always file navbar changes on yeahgames.net and write it down somewhere; notes, issues, etc.)
+
+docs: how to submit quotes, file a yourt case, etc. from around the server
