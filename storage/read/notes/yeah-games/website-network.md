@@ -109,7 +109,7 @@ notes hosted at admin will be iframe embedded into the dashboard, maybe an editi
 
 add chat to all new pages + navbar
 
-maybe unigon.net homepage dashboard template for yeahgames.net, each sidebar link could be subdomains and dashboard, etc.
+maybe unigon.net homepage dashboard template for yeahgames.net, each sidebar link could be subdomains and dashboard, etc. **NEVER  MIND; USE A JEKYLL TEMPLATE**
 
 docs are a collection by the archives (add in library menu: collections > docs) where some archive files are aggregated in a different format for diff  use, just embedded onto there.
 
@@ -126,3 +126,9 @@ INSTEAD OF HTML DOCS TEMPLATE FOR DOCS COLLECTION, GET A jekyll site (maybe a wh
 always add a copy of new markdown posts to the library to the archives-cdn as well, just so they can continue to be accessed; but library takes update priority, just copy and paste a copy of the markdown file and post it quickly when done
 
 on library-collections, index will be a template directory linking to all public collections
+
+find a jekyll directory template for the yeahgames.net homepage to direct to all subdomains and pages, etc.
+
+create readme.md on yeahgames profile with directory and yg image banner with directory to all subdomains and short descriptions, along with archives team goal and current projects, code links, etc.
+
+add discord post on library with embed **and** links
