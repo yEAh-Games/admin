@@ -142,3 +142,23 @@ docs will gave guides about how to edit certain things, like markdown syntax and
 docs: how to submit quotes, file a yourt case, etc. from around the server
 
 add notice on docs posts on main library collection that they are being hosted and embedded/displayed from the "Docs" library collection and you are viewing an embedded version, we recommend visiting the docs page in order to view them properly and to learn more, etc.
+
+add melontime docs category; includes chrome dino and bypassing restrictions text (in hosting server)
+
+maybe different collections can host each category, eg. quotes? it might be a good idea for organization, standardization, and people can view what they want without news clutter, etc., while library just aggregates all content embedded? possible idea.
+
+for example quotes, news, etc. all have their quotes-collections domain but everything is embedded into the library except for some stuff, like embedded discord archives-cdn stuff maybe
+
+create ads.yeahgames.net for uploading, creating and instructions for ads, also mainly for redirect tracking when someone clicks on an ad (ads.yeahgames.net/click/adlocationonnetwrok/ad_id) or something
+
+message on library for other collections:
+
+Hey! Reminder that you're on the yEAh Games main library and are viewing an item in our catalog in an external collection via an embed. The yEAh Games main libary's purpose is to provide a medium for regular users to be able to browse through all the Archives in one place; but in reality, most of our content catalog is hosted on external Library collections and are simply embedded onto the main browsable Library. If you're interested on more detail or if something isn't working as intended, we recommend you visit the external collection's page at: docs-collections.yeahgames.net/page
+
+if deprecated external collection or page, add warning, discord exports need warning for potentially nsfw content on the discord server when browsing
+
+download a cms editor from github (bookmarked on firefox) and set it up for all jekyll yeah games websites, and add documentation pages copied from the github repo on to the docs for people to set it up and navigate to localhost:4000
+
+add permenant ad offer from discord to the ad docs page, as we're keeping it like that for an indefinite period of time
+
+set up ads.yeahgames.net/book to redirect to form and the ads dashboard home screen, etc.
