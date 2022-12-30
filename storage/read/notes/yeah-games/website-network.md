@@ -162,3 +162,7 @@ download a cms editor from github (bookmarked on firefox) and set it up for all 
 add permenant ad offer from discord to the ad docs page, as we're keeping it like that for an indefinite period of time
 
 set up ads.yeahgames.net/book to redirect to form and the ads dashboard home screen, etc.
+
+gallery portfolio view for quotes theme, so you can see them all via an image or placeholder
+
+library-collections directory can be like a catalog blog or the library theme with books for each colelction
