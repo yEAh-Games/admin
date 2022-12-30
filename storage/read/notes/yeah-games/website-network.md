@@ -166,3 +166,7 @@ set up ads.yeahgames.net/book to redirect to form and the ads dashboard home scr
 gallery portfolio view for quotes theme, so you can see them all via an image or placeholder
 
 library-collections directory can be like a catalog blog or the library theme with books for each colelction
+
+always make sure to add docs for each new theme to the yeah games docs, including the quotes gridster theme (https://ickc.github.io/gridster-jekyll-theme/)
+
+add collections dropdown to navbar with each collection (quotes, news, docs, etc.)
