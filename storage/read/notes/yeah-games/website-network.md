@@ -170,3 +170,5 @@ library-collections directory can be like a catalog blog or the library theme wi
 always make sure to add docs for each new theme to the yeah games docs, including the quotes gridster theme (https://ickc.github.io/gridster-jekyll-theme/)
 
 add collections dropdown to navbar with each collection (quotes, news, docs, etc.)
+
+make separate okdex site for browsing through okdex pokemon, etc., linked in rules docs
