@@ -172,3 +172,5 @@ always make sure to add docs for each new theme to the yeah games docs, includin
 add collections dropdown to navbar with each collection (quotes, news, docs, etc.)
 
 make separate okdex site for browsing through okdex pokemon, etc., linked in rules docs
+
+add collections to sidebar of the main library, maybe title for collections, but use redirect pages that link to the site
