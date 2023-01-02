@@ -174,3 +174,9 @@ add collections dropdown to navbar with each collection (quotes, news, docs, etc
 make separate okdex site for browsing through okdex pokemon, etc., linked in rules docs
 
 add collections to sidebar of the main library, maybe title for collections, but use redirect pages that link to the site
+
+remove redirect from archives-cdn to library since it is now an official collection, or maybe not (decide)
+
+add navbar to library creating new includes html file with improts?
+
+try chat again on archives including elsewhere, maybe won't include it although we could try an iframe
