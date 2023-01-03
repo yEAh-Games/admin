@@ -180,3 +180,7 @@ remove redirect from archives-cdn to library since it is now an official collect
 add navbar to library creating new includes html file with improts?
 
 try chat again on archives including elsewhere, maybe won't include it although we could try an iframe
+
+start adding images to archives cdn, not view, but /assets or **/cdn** and host images off of there from now on for security and safety
+
+change pub dates for all qotds to the day they were actually published
