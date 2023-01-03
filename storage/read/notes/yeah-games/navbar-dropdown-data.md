@@ -1,4 +1,6 @@
-    <div class="w3-dropdown-hover w3-hide-small">
+
+out of date
+<div class="w3-dropdown-hover w3-hide-small">
 
       <i class="fa fa-address-card"></i><button class="w3-button" title="Follow yEAh Games on social media!">Social<i class="fa fa-caret-down"></i></button>    
 

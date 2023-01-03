@@ -184,3 +184,13 @@ try chat again on archives including elsewhere, maybe won't include it although 
 start adding images to archives cdn, not view, but /assets or **/cdn** and host images off of there from now on for security and safety, all assets should be stored on archives-cdn, so when you oepn the link is like that and we have them all safe, add docs page about storing files on the archvies to view, by using archives cdn not any external or on your site, for images and other files (e.g., discord exports)
 
 change pub dates for all qotds to the day they were actually published
+
+add contributing toc menu for new contributing items on docs
+
+add other navbar menus to other sites using {% include %}
+
+add ads to the library, adding to sidebar with ads originally from the old archives and get ad deal from dc up on archives
+
+change all qotd posts on the main library to embeds to the new collection
+
+add featured images to the rest of the posts on the quotes collection
