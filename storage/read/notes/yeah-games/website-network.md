@@ -181,6 +181,6 @@ add navbar to library creating new includes html file with improts?
 
 try chat again on archives including elsewhere, maybe won't include it although we could try an iframe
 
-start adding images to archives cdn, not view, but /assets or **/cdn** and host images off of there from now on for security and safety
+start adding images to archives cdn, not view, but /assets or **/cdn** and host images off of there from now on for security and safety, all assets should be stored on archives-cdn, so when you oepn the link is like that and we have them all safe, add docs page about storing files on the archvies to view, by using archives cdn not any external or on your site, for images and other files (e.g., discord exports)
 
 change pub dates for all qotds to the day they were actually published
