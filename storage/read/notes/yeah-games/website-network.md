@@ -194,3 +194,11 @@ add ads to the library, adding to sidebar with ads originally from the old archi
 change all qotd posts on the main library to embeds to the new collection
 
 add featured images to the rest of the posts on the quotes collection
+
+find html not jekyll template for homepage to display posts about various parts of the site, and a sidebar to access all the parts
+
+add popup modal saying website is underconstruction, where to contribute, where to report bugs, how it works, introduction to yeahgames.net to help people get familiarized witht he new system, ask if looking for yeahgames.pro for now while this is under contruction, quick links to the archives, and quotes, etc.
+
+**push updates to bootstrap v5** and fontawesome most recent version across all sites; deprecate w3schools later
+
+add navbar to library using z-index overtop and changing stylesheet to remove font change, update logo link
