@@ -187,7 +187,7 @@ change pub dates for all qotds to the day they were actually published
 
 add contributing toc menu for new contributing items on docs
 
-add other navbar menus to other sites using {% include %}
+add other navbar menus to other sites using  include 
 
 add ads to the library, adding to sidebar with ads originally from the old archives and get ad deal from dc up on archives
 
