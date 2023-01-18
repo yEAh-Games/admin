@@ -202,3 +202,7 @@ add popup modal saying website is underconstruction, where to contribute, where 
 **push updates to bootstrap v5** and fontawesome most recent version across all sites; deprecate w3schools later
 
 add navbar to library using z-index overtop and changing stylesheet to remove font change, update logo link
+
+suggest moving network nav to a sidebar from codepen instead of nav, with open button
+
+video archives-cdn new collection for storing videos on github, get custom css embed with custom controls and use basic card with video embed template to view them, e.g. the rick video, yg yt and more
