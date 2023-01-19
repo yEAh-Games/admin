@@ -1,5 +1,6 @@
 <head>
 <link href="https://cdn.yeahgames.net/css/lib/pronav.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
 <style>
 .networknav2 {
   position: fixed; 
@@ -11,7 +12,6 @@
 </head>
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 <style>
-/*replace with fontawesome*/@import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css); 
 
 .inset-l-full {
     left: 100%;
@@ -33,7 +33,7 @@
     </div>
     <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-start md:flex-row"> <!--justify[-param] changes button from cntr, lft, rght on lrg scns-->
         <li class="block relative" x-data="{showChildren:false}" @click.away="showChildren=false">
-            <a class="flex items-center h-10 leading-10 px-4 rounded cursor-pointer no-underline hover:no-underline transition-colors duration-100 mx-1 bg-red-500 text-white hover:bg-red-100 px-4 py-2 mt-2 text-sm font-semibold bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-red-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">                        <span class="mr-3 text-xl"> <i class="mdi mdi-widgets-outline"></i> </span>
+            <a class="flex items-center h-10 leading-10 px-4 rounded cursor-pointer no-underline hover:no-underline transition-colors duration-100 mx-1 bg-red-500 text-white hover:bg-red-100 px-4 py-2 mt-2 text-sm font-semibold bg-transparent dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-red-300 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="#">                        <span class="mr-3 text-xl"> <i class="fa fa-solid fa-sad-tear"></i> </span>
               <span>test</span></a></li>
       
 
