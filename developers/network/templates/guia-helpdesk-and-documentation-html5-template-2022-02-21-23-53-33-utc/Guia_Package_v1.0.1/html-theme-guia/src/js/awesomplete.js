@@ -1,1 +1,0 @@
-import Awesomplete from 'awesomplete';
